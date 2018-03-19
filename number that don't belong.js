@@ -1,3 +1,5 @@
+//find the number in an array that doesn't belong
+
 function stray(numbers) {
   numbers.sort();
   if (numbers[0] !== numbers[1]) {
@@ -5,4 +7,3 @@ function stray(numbers) {
   } else return numbers[numbers.length - 1];
 }
 
-// stray([27, 27, 1, 27, 27, 27, 27]);
